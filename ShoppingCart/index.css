@@ -1,0 +1,78 @@
+/**
+* ? Styles for Browser
+**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**
+* ? Styles for Body
+**/
+body {
+    font-family: sans-serif;
+}
+
+/**
+* ? Styles for Nav
+**/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #14213d;
+    color: white;
+    padding: 30px 60px;
+    margin-bottom: 35px;
+}
+
+/**
+* ? Styles for Cart
+**/
+.cart {
+    position: relative;
+    background-color: white;
+    color: #14213d;
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/**
+* ? Styles for Amount in cart
+**/
+.cartAmount {
+    top: -15px;
+    right: -7px;
+    position: absolute;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 6px;
+}
+
+/**
+* ? Styles for shop
+**/
+
+.shop {
+    display: grid;
+    grid-template-columns: repeat(4, 233px);
+    gap: 35px;
+    justify-content: center;
+}
+
+/**
+* ? Styles for items
+**/
+
+.item {
+    border: 2px solid #14213d;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
