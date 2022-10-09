@@ -88,6 +88,8 @@ body {
     flex-direction: column;
     padding: 15px;
     gap: 10px;
+    background-color: white;
+    color: #14213d;
 }
 
 /**
@@ -112,4 +114,11 @@ body {
 
 .left {
     justify-content: right;
+}
+
+.remove {
+    top: 50%;
+    background-color: #14213d;
+    color: azure;
+    border-radius: 10px;
 }
