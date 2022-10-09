@@ -21,26 +21,6 @@ $(document).ready(function () {
       ');
     }
 
-    // var sortItem = function () {
-    //     var prices = $('.item-amount');
-    //     var names = $('.item-input');
-    //     var priceName = [];
-    //     for (i = 0; i < prices.length; i++) {
-    //         var price = $(prices[i]).text().trim();
-    //         var name = $(names[i]).text().trim();
-    //         priceName.push([name, price]);
-    //     }
-    //     priceName.sort();
-    //     console.log(priceName);
-    //     for (i = 0; i < priceName.length; i++) {
-    //         $($('.item-input')[i]).text(priceName[i][0]);
-    //         $($('.item-amount')[i]).text(priceName[i][1]);
-    //     }
-    // }
-
-    // var removeItem = function() {
-    //   this.parents('.row').remove();
-    // }
 
     $(document).on('click', '#addToList', function () {
         addItem($('#item-input').val(), $('#item-amount').val());
@@ -51,23 +31,6 @@ $(document).ready(function () {
         sum();
     });
 
-    // $('input').keydown(function (e) {
-
-    //     if (e.which == 13) {
-    //         sum();
-    //     };
-    // });
-
-    // $(document).on('keyup', '.quantity', function () {
-    //     sum();
-    // });
-
-    // $(document).on('keydown', '#cost', function (e) {
-
-    //     if (e.which == 13) {
-    //         addItem($('#name').val(), $('#cost').val());
-    //     };
-    // });
 
 
 
