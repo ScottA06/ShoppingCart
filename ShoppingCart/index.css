@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /**
@@ -64,6 +65,18 @@ body {
     justify-content: center;
 }
 
+@media (max-width :1000px) {
+    .shop {
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width :500px) {
+    .shop {
+        grid-template-columns: repeat(1, 223px);
+    }
+}
+
 /**
 * ? Styles for items
 **/
@@ -75,4 +88,28 @@ body {
     flex-direction: column;
     padding: 15px;
     gap: 10px;
+}
+
+/**
+* ! Buttons
+**/
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.bi-dash-lg {
+    color: red;
+}
+
+.bi-plus-lg {
+    color: green;
+}
+
+.left {
+    justify-content: right;
 }
