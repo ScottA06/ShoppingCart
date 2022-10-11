@@ -5,15 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
-/**
-* ? Styles for Body
-**/
-body {
-    font-family: sans-serif;
-}
+
 
 /**
 * ? Styles for Nav
@@ -26,6 +20,16 @@ body {
     color: white;
     padding: 30px 60px;
     margin-bottom: 35px;
+}
+
+/**
+* ? Styles for Body
+**/
+body {
+    font-family: sans-serif;
+    background: url(img/background.jpg);
+    background-position: no-repeat fixed 0 -300px;
+    background-size: 100%;
 }
 
 /**
